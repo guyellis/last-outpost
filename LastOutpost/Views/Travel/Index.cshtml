@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Travel";
+}
+
+<div class="shim column">
+</div>
+<div class="page" id="home">
+    <div id="sidebar">
+        @{ Html.RenderPartial("_TravelListSidebar"); }
+    </div>
+
+    <div id="content">
+        @{ Html.RenderPartial((string)ViewBag.Travel); }
+    </div>
+</div>
+

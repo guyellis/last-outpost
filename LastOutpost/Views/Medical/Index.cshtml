@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Medical";
+}
+
+<div class="shim column">
+</div>
+<div class="page" id="home">
+    <div id="sidebar">
+        @{ Html.RenderPartial("_MedicalListSidebar"); }
+    </div>
+
+    <div id="content">
+        @{ Html.RenderPartial((string)ViewBag.Medical); }
+    </div>
+</div>
+
