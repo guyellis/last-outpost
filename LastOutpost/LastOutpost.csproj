@@ -149,12 +149,15 @@
     <Content Include="Images\communicating_african_patient.jpg" />
     <Content Include="Images\echoes_from_the_last_outpost.jpg" />
     <Content Include="Images\lastoutpost.jpg" />
+    <Content Include="Images\out-of-chaos-comes-a-dancing-star-back.png" />
+    <Content Include="Images\out-of-chaos-comes-a-dancing-star-front.png" />
     <Content Include="Images\resume-photo-old1.jpg" />
     <Content Include="Images\resume-photo.jpg" />
     <Content Include="Images\ruminations.jpg" />
     <Content Include="Images\RuralMedicalPractice.png" />
     <Content Include="Images\soft_edges.jpg" />
     <Content Include="README.jQuery.vsdoc.txt" />
+    <None Include="Properties\PublishProfiles\Live to Headvert 2012 Server.pubxml" />
     <None Include="Properties\PublishProfiles\Profile1.pubxml" />
     <None Include="Scripts\jquery-1.8.0.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.0.js" />
@@ -186,6 +189,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Books\_Chaos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

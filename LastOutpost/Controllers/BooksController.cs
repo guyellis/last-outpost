@@ -17,13 +17,12 @@ namespace LastOutpost.Controllers
         {
             if (!id.HasValue)
             {
-                id = 1;
+                id = 10;
             }
 
             switch (id.Value)
             {
                 case 1:
-                default:
                     ViewBag.Book = "_Echoes";
                     break;
                 case 2:
@@ -49,6 +48,10 @@ namespace LastOutpost.Controllers
                     break;
                 case 9:
                     ViewBag.Book = "_Learning";
+                    break;
+                case 10:
+                default:
+                    ViewBag.Book = "_Chaos";
                     break;
             }
 
