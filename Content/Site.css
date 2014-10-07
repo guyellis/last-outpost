@@ -121,7 +121,6 @@ a:active {
 
 body {
 	background-color: #ffffff;
-	background-image: url(http://www.lastoutpost.info/Content/images/background.gif);
 	background-repeat: repeat-x;
 	margin: 0;
 	padding: 0;
@@ -138,7 +137,6 @@ img {
 /* 1 HEADER */
 
 .header {
-	background-image: url(http://www.lastoutpost.info/Content/Images/header.gif);
 	background-repeat: no-repeat;
 	position: relative;
 	width: 760px;
@@ -198,15 +196,12 @@ h2 {
 }
 
 .column {
-	background-image: url(http://www.lastoutpost.info/Content/images/content-shim.gif);
 }
 
 .gradient {
-	background-image: url(http://www.lastoutpost.info/Content/images/content-shim-photo.gif);
 }
 
 .solid {
-	background-image: url(http://www.lastoutpost.info/Content/images/content-shim-none.gif);
 }
 
 /* 2 PAGE */
@@ -234,7 +229,6 @@ h4 {
 /* 2.1 HOME, RESUME, LINKS, REGISTER, ADMIN/ALBUMS, ADMIN/PHOTOS PAGES */
 
 #home, #resume, #links, #register, #admin-albums, #admin-photos {
-	background-image: url(http://www.lastoutpost.info/Content/images/body-repeat.gif);
 	position: relative;
 	width: 686px;
 	/*height:700px;*/
@@ -312,7 +306,6 @@ dd {
 /* 2.2 ALBUMS PAGE */
 
 #albums {
-	background-image: url(http://www.lastoutpost.info/Content/images/body-repeat-photo.gif);
 	padding: 0px 37px;
 	padding-bottom: 40px;
 	width: 686px;
@@ -348,13 +341,11 @@ dd {
 /* 2.3 PHOTOS, DETAILS, ADMIN/DETAILS PAGE */
 
 #photos, #details, #admin-details {
-	background-image: url(http://www.lastoutpost.info/Content/images/body-repeat-photo.gif);
 	padding: 0;
 	width: 760px;
 }
 
 .buttonbar {
-	background-image: url(http://www.lastoutpost.info/Content/images/photonav-bg.gif);
 	background-repeat: repeat-x;
 	margin-left: auto;
 	margin-right: auto;
@@ -365,7 +356,6 @@ dd {
 }
 
 .buttonbar-top {
-	background-image: url(http://www.lastoutpost.info/Content/images/photonav-top-bg.gif);
 }
 
 #photos .view, #admin-details .view {
@@ -376,14 +366,12 @@ dd {
 /* 3 FOOTER */
 
 .footerbg {
-	background-image: url(http://www.lastoutpost.info/Content/images/footer-side.gif);
 	background-repeat: repeat-x;
 	width: auto;
 	height: 75px;
 	text-align: center;
 }
 .footer {
-	background-image: url(http://www.lastoutpost.info/Content/images/footer.gif);
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
