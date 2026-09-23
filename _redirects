@@ -1,1 +1,5 @@
-https://lastoutpost.info/* https://www.lastoutpost.info/:splat 301
+# Host canonicalization (apex -> www) is NOT done here.
+# Cloudflare Pages _redirects matches on path only, never on host,
+# so an apex->www rule would silently never match.
+# It lives in the dashboard instead: Rules -> Redirect Rules
+# (if Hostname equals lastoutpost.info, 301 to https://www.lastoutpost.info).
